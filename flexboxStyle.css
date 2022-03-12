@@ -1,0 +1,25 @@
+.container{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.red{
+    width: 200px;
+    background-color: red;
+}
+
+.yellow{
+    width: 200px;
+    background-color: yellow;
+}
+
+.blue{
+    width: 200px;
+    background-color: blue;
+}
+
+.green{
+    width: 200px;
+    background-color: green;
+}

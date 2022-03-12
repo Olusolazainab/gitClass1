@@ -1,0 +1,29 @@
+header {
+  background: url("https://images.unsplash.com/photo-1537832816519-689ad163238b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2359&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(0, 0, 255);
+  height: 80vh;
+}
+
+.myOverlay {
+  background: rgba(0, 0, 0, 0.62);
+  height: 100%;
+  z-index: 1;
+}
+
+.heroText {
+  width: 50%;
+}
+.copyrightSection {
+  background-color: #000;
+  padding: 15px;
+  text-align: center;
+  font-size: small;
+}
+
+@media (max-width: 576px) {
+  .heroText {
+    width: 100%;
+  }
+}
